@@ -22,7 +22,7 @@ struct BidInputView: View {
                 HStack {
                     Text(game.players[index].name)
                         .bold()
-                        .foregroundColor(index == game.dealerIndex ? .red : .black)
+                        .foregroundColor(index == game.roundLeadIndex ? .green : .black)
                     Spacer()
                     TextField("Enter bid", value: Binding(
                         get: {

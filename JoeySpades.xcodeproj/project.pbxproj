@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8E18F56A2A2BEC2B0054734F /* CharliesSpadesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E18F5692A2BEC2B0054734F /* CharliesSpadesApp.swift */; };
+		8E18F56A2A2BEC2B0054734F /* JoeySpadesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E18F5692A2BEC2B0054734F /* JoeySpadesApp.swift */; };
 		8E18F56C2A2BEC2B0054734F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E18F56B2A2BEC2B0054734F /* ContentView.swift */; };
 		8E18F56E2A2BEC2E0054734F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E18F56D2A2BEC2E0054734F /* Assets.xcassets */; };
 		8E18F5712A2BEC2E0054734F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E18F5702A2BEC2E0054734F /* Preview Assets.xcassets */; };
@@ -19,6 +19,7 @@
 		8EB3FDB62C74E88600140C7D /* TrickCountInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3FDB52C74E88600140C7D /* TrickCountInputView.swift */; };
 		8EB3FDB92C74E91900140C7D /* ScoreboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3FDB82C74E91900140C7D /* ScoreboardView.swift */; };
 		8EB3FDBB2C74FF5B00140C7D /* RoundSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3FDBA2C74FF5B00140C7D /* RoundSummaryView.swift */; };
+		8EB3FDBD2C75955E00140C7D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8EB3FDBC2C75955E00140C7D /* .gitignore */; };
 		8EC7CA9C2A3903DF0099EBF1 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC7CA9B2A3903DF0099EBF1 /* Game.swift */; };
 		8EEF4B322A2C35E600347C34 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF4B312A2C35E600347C34 /* Player.swift */; };
 /* End PBXBuildFile section */
@@ -41,14 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8E18F5662A2BEC2B0054734F /* CharliesSpades.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CharliesSpades.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E18F5692A2BEC2B0054734F /* CharliesSpadesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharliesSpadesApp.swift; sourceTree = "<group>"; };
+		8E18F5662A2BEC2B0054734F /* JoeySpades.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JoeySpades.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E18F5692A2BEC2B0054734F /* JoeySpadesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoeySpadesApp.swift; sourceTree = "<group>"; };
 		8E18F56B2A2BEC2B0054734F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8E18F56D2A2BEC2E0054734F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E18F5702A2BEC2E0054734F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8E18F5762A2BEC2F0054734F /* CharliesSpadesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CharliesSpadesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E18F5762A2BEC2F0054734F /* JoeySpadesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JoeySpadesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E18F57A2A2BEC2F0054734F /* CharliesSpadesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharliesSpadesTests.swift; sourceTree = "<group>"; };
-		8E18F5802A2BEC2F0054734F /* CharliesSpadesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CharliesSpadesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E18F5802A2BEC2F0054734F /* JoeySpadesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JoeySpadesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E18F5842A2BEC2F0054734F /* CharliesSpadesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharliesSpadesUITests.swift; sourceTree = "<group>"; };
 		8E18F5862A2BEC2F0054734F /* CharliesSpadesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharliesSpadesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8EB3FDB12C74E76A00140C7D /* PlayerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListView.swift; sourceTree = "<group>"; };
@@ -56,6 +57,7 @@
 		8EB3FDB52C74E88600140C7D /* TrickCountInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrickCountInputView.swift; sourceTree = "<group>"; };
 		8EB3FDB82C74E91900140C7D /* ScoreboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreboardView.swift; sourceTree = "<group>"; };
 		8EB3FDBA2C74FF5B00140C7D /* RoundSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundSummaryView.swift; sourceTree = "<group>"; };
+		8EB3FDBC2C75955E00140C7D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		8EC7CA9B2A3903DF0099EBF1 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		8EEF4B312A2C35E600347C34 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,9 +90,10 @@
 		8E18F55D2A2BEC2B0054734F = {
 			isa = PBXGroup;
 			children = (
-				8E18F5682A2BEC2B0054734F /* CharliesSpades */,
-				8E18F5792A2BEC2F0054734F /* CharliesSpadesTests */,
-				8E18F5832A2BEC2F0054734F /* CharliesSpadesUITests */,
+				8EB3FDBC2C75955E00140C7D /* .gitignore */,
+				8E18F5682A2BEC2B0054734F /* JoeySpades */,
+				8E18F5792A2BEC2F0054734F /* JoeySpadesTests */,
+				8E18F5832A2BEC2F0054734F /* JoeySpadesUITests */,
 				8E18F5672A2BEC2B0054734F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,23 +101,23 @@
 		8E18F5672A2BEC2B0054734F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8E18F5662A2BEC2B0054734F /* CharliesSpades.app */,
-				8E18F5762A2BEC2F0054734F /* CharliesSpadesTests.xctest */,
-				8E18F5802A2BEC2F0054734F /* CharliesSpadesUITests.xctest */,
+				8E18F5662A2BEC2B0054734F /* JoeySpades.app */,
+				8E18F5762A2BEC2F0054734F /* JoeySpadesTests.xctest */,
+				8E18F5802A2BEC2F0054734F /* JoeySpadesUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8E18F5682A2BEC2B0054734F /* CharliesSpades */ = {
+		8E18F5682A2BEC2B0054734F /* JoeySpades */ = {
 			isa = PBXGroup;
 			children = (
 				8EB3FDB72C74E8F500140C7D /* Views */,
 				8EEF4B302A2C35D300347C34 /* Models */,
-				8E18F5692A2BEC2B0054734F /* CharliesSpadesApp.swift */,
+				8E18F5692A2BEC2B0054734F /* JoeySpadesApp.swift */,
 				8E18F56D2A2BEC2E0054734F /* Assets.xcassets */,
 				8E18F56F2A2BEC2E0054734F /* Preview Content */,
 			);
-			path = CharliesSpades;
+			path = JoeySpades;
 			sourceTree = "<group>";
 		};
 		8E18F56F2A2BEC2E0054734F /* Preview Content */ = {
@@ -125,21 +128,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		8E18F5792A2BEC2F0054734F /* CharliesSpadesTests */ = {
+		8E18F5792A2BEC2F0054734F /* JoeySpadesTests */ = {
 			isa = PBXGroup;
 			children = (
 				8E18F57A2A2BEC2F0054734F /* CharliesSpadesTests.swift */,
 			);
-			path = CharliesSpadesTests;
+			path = JoeySpadesTests;
 			sourceTree = "<group>";
 		};
-		8E18F5832A2BEC2F0054734F /* CharliesSpadesUITests */ = {
+		8E18F5832A2BEC2F0054734F /* JoeySpadesUITests */ = {
 			isa = PBXGroup;
 			children = (
 				8E18F5842A2BEC2F0054734F /* CharliesSpadesUITests.swift */,
 				8E18F5862A2BEC2F0054734F /* CharliesSpadesUITestsLaunchTests.swift */,
 			);
-			path = CharliesSpadesUITests;
+			path = JoeySpadesUITests;
 			sourceTree = "<group>";
 		};
 		8EB3FDB72C74E8F500140C7D /* Views */ = {
@@ -167,9 +170,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8E18F5652A2BEC2B0054734F /* CharliesSpades */ = {
+		8E18F5652A2BEC2B0054734F /* JoeySpades */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E18F58A2A2BEC2F0054734F /* Build configuration list for PBXNativeTarget "CharliesSpades" */;
+			buildConfigurationList = 8E18F58A2A2BEC2F0054734F /* Build configuration list for PBXNativeTarget "JoeySpades" */;
 			buildPhases = (
 				8E18F5622A2BEC2B0054734F /* Sources */,
 				8E18F5632A2BEC2B0054734F /* Frameworks */,
@@ -179,14 +182,14 @@
 			);
 			dependencies = (
 			);
-			name = CharliesSpades;
+			name = JoeySpades;
 			productName = CharliesSpades;
-			productReference = 8E18F5662A2BEC2B0054734F /* CharliesSpades.app */;
+			productReference = 8E18F5662A2BEC2B0054734F /* JoeySpades.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8E18F5752A2BEC2F0054734F /* CharliesSpadesTests */ = {
+		8E18F5752A2BEC2F0054734F /* JoeySpadesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E18F58D2A2BEC2F0054734F /* Build configuration list for PBXNativeTarget "CharliesSpadesTests" */;
+			buildConfigurationList = 8E18F58D2A2BEC2F0054734F /* Build configuration list for PBXNativeTarget "JoeySpadesTests" */;
 			buildPhases = (
 				8E18F5722A2BEC2F0054734F /* Sources */,
 				8E18F5732A2BEC2F0054734F /* Frameworks */,
@@ -197,14 +200,14 @@
 			dependencies = (
 				8E18F5782A2BEC2F0054734F /* PBXTargetDependency */,
 			);
-			name = CharliesSpadesTests;
+			name = JoeySpadesTests;
 			productName = CharliesSpadesTests;
-			productReference = 8E18F5762A2BEC2F0054734F /* CharliesSpadesTests.xctest */;
+			productReference = 8E18F5762A2BEC2F0054734F /* JoeySpadesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8E18F57F2A2BEC2F0054734F /* CharliesSpadesUITests */ = {
+		8E18F57F2A2BEC2F0054734F /* JoeySpadesUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E18F5902A2BEC2F0054734F /* Build configuration list for PBXNativeTarget "CharliesSpadesUITests" */;
+			buildConfigurationList = 8E18F5902A2BEC2F0054734F /* Build configuration list for PBXNativeTarget "JoeySpadesUITests" */;
 			buildPhases = (
 				8E18F57C2A2BEC2F0054734F /* Sources */,
 				8E18F57D2A2BEC2F0054734F /* Frameworks */,
@@ -215,9 +218,9 @@
 			dependencies = (
 				8E18F5822A2BEC2F0054734F /* PBXTargetDependency */,
 			);
-			name = CharliesSpadesUITests;
+			name = JoeySpadesUITests;
 			productName = CharliesSpadesUITests;
-			productReference = 8E18F5802A2BEC2F0054734F /* CharliesSpadesUITests.xctest */;
+			productReference = 8E18F5802A2BEC2F0054734F /* JoeySpadesUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -243,7 +246,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8E18F5612A2BEC2B0054734F /* Build configuration list for PBXProject "CharliesSpades" */;
+			buildConfigurationList = 8E18F5612A2BEC2B0054734F /* Build configuration list for PBXProject "JoeySpades" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -256,9 +259,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8E18F5652A2BEC2B0054734F /* CharliesSpades */,
-				8E18F5752A2BEC2F0054734F /* CharliesSpadesTests */,
-				8E18F57F2A2BEC2F0054734F /* CharliesSpadesUITests */,
+				8E18F5652A2BEC2B0054734F /* JoeySpades */,
+				8E18F5752A2BEC2F0054734F /* JoeySpadesTests */,
+				8E18F57F2A2BEC2F0054734F /* JoeySpadesUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E18F5712A2BEC2E0054734F /* Preview Assets.xcassets in Resources */,
+				8EB3FDBD2C75955E00140C7D /* .gitignore in Resources */,
 				8E18F56E2A2BEC2E0054734F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,7 +306,7 @@
 				8EB3FDB62C74E88600140C7D /* TrickCountInputView.swift in Sources */,
 				8EC7CA9C2A3903DF0099EBF1 /* Game.swift in Sources */,
 				8EB3FDB92C74E91900140C7D /* ScoreboardView.swift in Sources */,
-				8E18F56A2A2BEC2B0054734F /* CharliesSpadesApp.swift in Sources */,
+				8E18F56A2A2BEC2B0054734F /* JoeySpadesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,12 +332,12 @@
 /* Begin PBXTargetDependency section */
 		8E18F5782A2BEC2F0054734F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8E18F5652A2BEC2B0054734F /* CharliesSpades */;
+			target = 8E18F5652A2BEC2B0054734F /* JoeySpades */;
 			targetProxy = 8E18F5772A2BEC2F0054734F /* PBXContainerItemProxy */;
 		};
 		8E18F5822A2BEC2F0054734F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8E18F5652A2BEC2B0054734F /* CharliesSpades */;
+			target = 8E18F5652A2BEC2B0054734F /* JoeySpades */;
 			targetProxy = 8E18F5812A2BEC2F0054734F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -462,7 +466,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CharliesSpades/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"JoeySpades/Preview Content\"";
 				DEVELOPMENT_TEAM = 8MJVFA8KHL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -493,7 +497,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CharliesSpades/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"JoeySpades/Preview Content\"";
 				DEVELOPMENT_TEAM = 8MJVFA8KHL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -533,7 +537,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CharliesSpades.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CharliesSpades";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JoeySpades.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JoeySpades";
 			};
 			name = Debug;
 		};
@@ -553,7 +557,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CharliesSpades.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CharliesSpades";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JoeySpades.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JoeySpades";
 			};
 			name = Release;
 		};
@@ -596,7 +600,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8E18F5612A2BEC2B0054734F /* Build configuration list for PBXProject "CharliesSpades" */ = {
+		8E18F5612A2BEC2B0054734F /* Build configuration list for PBXProject "JoeySpades" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8E18F5882A2BEC2F0054734F /* Debug */,
@@ -605,7 +609,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E18F58A2A2BEC2F0054734F /* Build configuration list for PBXNativeTarget "CharliesSpades" */ = {
+		8E18F58A2A2BEC2F0054734F /* Build configuration list for PBXNativeTarget "JoeySpades" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8E18F58B2A2BEC2F0054734F /* Debug */,
@@ -614,7 +618,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E18F58D2A2BEC2F0054734F /* Build configuration list for PBXNativeTarget "CharliesSpadesTests" */ = {
+		8E18F58D2A2BEC2F0054734F /* Build configuration list for PBXNativeTarget "JoeySpadesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8E18F58E2A2BEC2F0054734F /* Debug */,
@@ -623,7 +627,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E18F5902A2BEC2F0054734F /* Build configuration list for PBXNativeTarget "CharliesSpadesUITests" */ = {
+		8E18F5902A2BEC2F0054734F /* Build configuration list for PBXNativeTarget "JoeySpadesUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8E18F5912A2BEC2F0054734F /* Debug */,

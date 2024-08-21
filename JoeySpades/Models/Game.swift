@@ -16,6 +16,7 @@ class Game: ObservableObject {
     @Published var currentRound: Int = 1
     @Published var roundValue: Int = 0
     @Published var dealerIndex: Int = 0
+    @Published var roundLeadIndex: Int = 1
     @Published var numberOfCards: Int = 0
     
     init() {
@@ -70,6 +71,7 @@ class Game: ObservableObject {
             currentRound = 1
         }
         dealerIndex = (dealerIndex + 1) % players.count
+        roundLeadIndex = (roundLeadIndex + 1) % players.count
         updateRoundValue()
         updateNumberOfCards()
         resetBidsAndTricks()
@@ -119,7 +121,7 @@ class Game: ObservableObject {
     
     func validateTotalTricks() -> Bool {
         let totalTricksCaught = players.reduce(0) { $0 + $1.tricksCaught }
-        return totalTricksCaught <= numberOfCards
+        return totalTricksCaught == numberOfCards
     }
 }
 
