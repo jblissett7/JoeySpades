@@ -14,6 +14,13 @@
 		8E18F57B2A2BEC2F0054734F /* CharliesSpadesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E18F57A2A2BEC2F0054734F /* CharliesSpadesTests.swift */; };
 		8E18F5852A2BEC2F0054734F /* CharliesSpadesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E18F5842A2BEC2F0054734F /* CharliesSpadesUITests.swift */; };
 		8E18F5872A2BEC2F0054734F /* CharliesSpadesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E18F5862A2BEC2F0054734F /* CharliesSpadesUITestsLaunchTests.swift */; };
+		8EB3FDB22C74E76A00140C7D /* PlayerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3FDB12C74E76A00140C7D /* PlayerListView.swift */; };
+		8EB3FDB42C74E84500140C7D /* BidInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3FDB32C74E84500140C7D /* BidInputView.swift */; };
+		8EB3FDB62C74E88600140C7D /* TrickCountInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3FDB52C74E88600140C7D /* TrickCountInputView.swift */; };
+		8EB3FDB92C74E91900140C7D /* ScoreboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3FDB82C74E91900140C7D /* ScoreboardView.swift */; };
+		8EB3FDBB2C74FF5B00140C7D /* RoundSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3FDBA2C74FF5B00140C7D /* RoundSummaryView.swift */; };
+		8EC7CA9C2A3903DF0099EBF1 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC7CA9B2A3903DF0099EBF1 /* Game.swift */; };
+		8EEF4B322A2C35E600347C34 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF4B312A2C35E600347C34 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		8E18F5802A2BEC2F0054734F /* CharliesSpadesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CharliesSpadesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E18F5842A2BEC2F0054734F /* CharliesSpadesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharliesSpadesUITests.swift; sourceTree = "<group>"; };
 		8E18F5862A2BEC2F0054734F /* CharliesSpadesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharliesSpadesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8EB3FDB12C74E76A00140C7D /* PlayerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListView.swift; sourceTree = "<group>"; };
+		8EB3FDB32C74E84500140C7D /* BidInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BidInputView.swift; sourceTree = "<group>"; };
+		8EB3FDB52C74E88600140C7D /* TrickCountInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrickCountInputView.swift; sourceTree = "<group>"; };
+		8EB3FDB82C74E91900140C7D /* ScoreboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreboardView.swift; sourceTree = "<group>"; };
+		8EB3FDBA2C74FF5B00140C7D /* RoundSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundSummaryView.swift; sourceTree = "<group>"; };
+		8EC7CA9B2A3903DF0099EBF1 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		8EEF4B312A2C35E600347C34 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +108,9 @@
 		8E18F5682A2BEC2B0054734F /* CharliesSpades */ = {
 			isa = PBXGroup;
 			children = (
+				8EB3FDB72C74E8F500140C7D /* Views */,
+				8EEF4B302A2C35D300347C34 /* Models */,
 				8E18F5692A2BEC2B0054734F /* CharliesSpadesApp.swift */,
-				8E18F56B2A2BEC2B0054734F /* ContentView.swift */,
 				8E18F56D2A2BEC2E0054734F /* Assets.xcassets */,
 				8E18F56F2A2BEC2E0054734F /* Preview Content */,
 			);
@@ -125,6 +140,28 @@
 				8E18F5862A2BEC2F0054734F /* CharliesSpadesUITestsLaunchTests.swift */,
 			);
 			path = CharliesSpadesUITests;
+			sourceTree = "<group>";
+		};
+		8EB3FDB72C74E8F500140C7D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8EB3FDB12C74E76A00140C7D /* PlayerListView.swift */,
+				8EB3FDB32C74E84500140C7D /* BidInputView.swift */,
+				8EB3FDB52C74E88600140C7D /* TrickCountInputView.swift */,
+				8EB3FDB82C74E91900140C7D /* ScoreboardView.swift */,
+				8E18F56B2A2BEC2B0054734F /* ContentView.swift */,
+				8EB3FDBA2C74FF5B00140C7D /* RoundSummaryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8EEF4B302A2C35D300347C34 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8EEF4B312A2C35E600347C34 /* Player.swift */,
+				8EC7CA9B2A3903DF0099EBF1 /* Game.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,7 +228,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					8E18F5652A2BEC2B0054734F = {
 						CreatedOnToolsVersion = 14.3;
@@ -257,7 +294,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EEF4B322A2C35E600347C34 /* Player.swift in Sources */,
+				8EB3FDB42C74E84500140C7D /* BidInputView.swift in Sources */,
+				8EB3FDB22C74E76A00140C7D /* PlayerListView.swift in Sources */,
+				8EB3FDBB2C74FF5B00140C7D /* RoundSummaryView.swift in Sources */,
 				8E18F56C2A2BEC2B0054734F /* ContentView.swift in Sources */,
+				8EB3FDB62C74E88600140C7D /* TrickCountInputView.swift in Sources */,
+				8EC7CA9C2A3903DF0099EBF1 /* Game.swift in Sources */,
+				8EB3FDB92C74E91900140C7D /* ScoreboardView.swift in Sources */,
 				8E18F56A2A2BEC2B0054734F /* CharliesSpadesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,6 +375,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -391,6 +436,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -420,6 +466,8 @@
 				DEVELOPMENT_TEAM = 8MJVFA8KHL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Carlies Spades Score Card";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.card-games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -430,7 +478,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = EBLDev.CharliesSpades;
+				PRODUCT_BUNDLE_IDENTIFIER = EBLDev.JoeySpades;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -449,6 +497,8 @@
 				DEVELOPMENT_TEAM = 8MJVFA8KHL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Carlies Spades Score Card";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.card-games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -459,7 +509,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = EBLDev.CharliesSpades;
+				PRODUCT_BUNDLE_IDENTIFIER = EBLDev.JoeySpades;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
