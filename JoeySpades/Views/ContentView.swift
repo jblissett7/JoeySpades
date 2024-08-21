@@ -24,7 +24,7 @@ struct ContentView: View {
             Button("Restart Game"){
                 game.resetGame()
             }
-            .navigationTitle("Charlie's Spades")
+            .navigationTitle("Joey Spades")
             .padding()
             .navigationBarBackButtonHidden(true)
         }

@@ -119,7 +119,7 @@ class Game: ObservableObject {
     
     func validateTotalTricks() -> Bool {
         let totalTricksCaught = players.reduce(0) { $0 + $1.tricksCaught }
-        return totalTricksCaught <= numberOfCards
+        return totalTricksCaught == numberOfCards
     }
 }
 
