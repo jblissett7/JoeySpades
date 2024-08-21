@@ -24,13 +24,14 @@ struct RoundSummaryView: View {
                 }
             }
 
-            NavigationLink(destination: BidInputView(game: game), isActive: $navigateToBidInputView) {
-                            Button("Start Next Round") {
-                                game.nextRound()
-                                navigateToBidInputView = true // Trigger navigation
-                            }
-                            .padding()
-                            .buttonStyle(.borderedProminent)
+            Button("Start Next Round") {
+                game.nextRound()
+                navigateToBidInputView = true // Trigger navigation
+            }
+            .padding()
+            .buttonStyle(.borderedProminent)
+            .navigationDestination(isPresented: $navigateToBidInputView) {
+                BidInputView(game: game)
             }
             .padding()
         }
@@ -40,11 +41,6 @@ struct RoundSummaryView: View {
         }
         .navigationBarBackButtonHidden(true)
     }
-//    private func navigateToBidInputView() {
-//            DispatchQueue.main.async {
-//                self.presentationMode.wrappedValue.dismiss()
-//            }
-//        }
 }
 
 #Preview {

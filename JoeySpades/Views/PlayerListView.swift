@@ -34,6 +34,8 @@ struct PlayerListView: View {
                 .padding()
         }
         .padding()
+        .navigationTitle("Player Management")
+        .navigationBarBackButtonHidden(true)
     }
 }
 
