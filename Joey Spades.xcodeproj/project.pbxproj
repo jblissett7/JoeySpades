@@ -7,8 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E1C7EA82C77B92C00E2B460 /* TrickCountInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C7EA22C77B92C00E2B460 /* TrickCountInputView.swift */; };
+		8E1C7EA92C77B92C00E2B460 /* PlayerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C7EA32C77B92C00E2B460 /* PlayerListView.swift */; };
+		8E1C7EAA2C77B92C00E2B460 /* ScoreboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C7EA42C77B92C00E2B460 /* ScoreboardView.swift */; };
+		8E1C7EAB2C77B92C00E2B460 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C7EA52C77B92C00E2B460 /* ContentView.swift */; };
+		8E1C7EAC2C77B92C00E2B460 /* BidInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C7EA62C77B92C00E2B460 /* BidInputView.swift */; };
+		8E1C7EAD2C77B92C00E2B460 /* RoundSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C7EA72C77B92C00E2B460 /* RoundSummaryView.swift */; };
+		8E1C7EB02C77B98B00E2B460 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C7EAE2C77B98B00E2B460 /* Player.swift */; };
+		8E1C7EB12C77B98B00E2B460 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C7EAF2C77B98B00E2B460 /* Game.swift */; };
+		8E1C7EB52C77B9E700E2B460 /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C7EB42C77B9E700E2B460 /* GameTests.swift */; };
+		8E1C7EB72C77BA7C00E2B460 /* PlayerListViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C7EB62C77BA7B00E2B460 /* PlayerListViewUITests.swift */; };
+		8E1C7EB92C78EA3F00E2B460 /* ScoreBoardUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C7EB82C78EA3F00E2B460 /* ScoreBoardUITest.swift */; };
+		8E1C7EBB2C78EA6100E2B460 /* TrickCountInputUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C7EBA2C78EA6100E2B460 /* TrickCountInputUITests.swift */; };
+		8E1C7EBD2C78EA8700E2B460 /* BidInputViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C7EBC2C78EA8700E2B460 /* BidInputViewUITests.swift */; };
 		8EB3FDD42C77B7D700140C7D /* Joey_SpadesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3FDD32C77B7D700140C7D /* Joey_SpadesApp.swift */; };
-		8EB3FDD62C77B7D700140C7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3FDD52C77B7D700140C7D /* ContentView.swift */; };
 		8EB3FDD82C77B7DA00140C7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EB3FDD72C77B7DA00140C7D /* Assets.xcassets */; };
 		8EB3FDDB2C77B7DA00140C7D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EB3FDDA2C77B7DA00140C7D /* Preview Assets.xcassets */; };
 		8EB3FDE52C77B7DA00140C7D /* Joey_SpadesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3FDE42C77B7DA00140C7D /* Joey_SpadesTests.swift */; };
@@ -34,9 +46,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E1C7EA22C77B92C00E2B460 /* TrickCountInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrickCountInputView.swift; sourceTree = "<group>"; };
+		8E1C7EA32C77B92C00E2B460 /* PlayerListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerListView.swift; sourceTree = "<group>"; };
+		8E1C7EA42C77B92C00E2B460 /* ScoreboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreboardView.swift; sourceTree = "<group>"; };
+		8E1C7EA52C77B92C00E2B460 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8E1C7EA62C77B92C00E2B460 /* BidInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BidInputView.swift; sourceTree = "<group>"; };
+		8E1C7EA72C77B92C00E2B460 /* RoundSummaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundSummaryView.swift; sourceTree = "<group>"; };
+		8E1C7EAE2C77B98B00E2B460 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		8E1C7EAF2C77B98B00E2B460 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		8E1C7EB42C77B9E700E2B460 /* GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTests.swift; sourceTree = "<group>"; };
+		8E1C7EB62C77BA7B00E2B460 /* PlayerListViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListViewUITests.swift; sourceTree = "<group>"; };
+		8E1C7EB82C78EA3F00E2B460 /* ScoreBoardUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreBoardUITest.swift; sourceTree = "<group>"; };
+		8E1C7EBA2C78EA6100E2B460 /* TrickCountInputUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrickCountInputUITests.swift; sourceTree = "<group>"; };
+		8E1C7EBC2C78EA8700E2B460 /* BidInputViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BidInputViewUITests.swift; sourceTree = "<group>"; };
 		8EB3FDD02C77B7D700140C7D /* Joey Spades.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Joey Spades.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB3FDD32C77B7D700140C7D /* Joey_SpadesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joey_SpadesApp.swift; sourceTree = "<group>"; };
-		8EB3FDD52C77B7D700140C7D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8EB3FDD72C77B7DA00140C7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EB3FDDA2C77B7DA00140C7D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8EB3FDE02C77B7DA00140C7D /* Joey SpadesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Joey SpadesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,8 +118,9 @@
 		8EB3FDD22C77B7D700140C7D /* Joey Spades */ = {
 			isa = PBXGroup;
 			children = (
+				8EB3FDFE2C77B81200140C7D /* Models */,
+				8EB3FDFD2C77B80900140C7D /* Views */,
 				8EB3FDD32C77B7D700140C7D /* Joey_SpadesApp.swift */,
-				8EB3FDD52C77B7D700140C7D /* ContentView.swift */,
 				8EB3FDD72C77B7DA00140C7D /* Assets.xcassets */,
 				8EB3FDD92C77B7DA00140C7D /* Preview Content */,
 			);
@@ -113,6 +138,7 @@
 		8EB3FDE32C77B7DA00140C7D /* Joey SpadesTests */ = {
 			isa = PBXGroup;
 			children = (
+				8E1C7EB42C77B9E700E2B460 /* GameTests.swift */,
 				8EB3FDE42C77B7DA00140C7D /* Joey_SpadesTests.swift */,
 			);
 			path = "Joey SpadesTests";
@@ -123,8 +149,34 @@
 			children = (
 				8EB3FDEE2C77B7DA00140C7D /* Joey_SpadesUITests.swift */,
 				8EB3FDF02C77B7DA00140C7D /* Joey_SpadesUITestsLaunchTests.swift */,
+				8E1C7EB62C77BA7B00E2B460 /* PlayerListViewUITests.swift */,
+				8E1C7EB82C78EA3F00E2B460 /* ScoreBoardUITest.swift */,
+				8E1C7EBA2C78EA6100E2B460 /* TrickCountInputUITests.swift */,
+				8E1C7EBC2C78EA8700E2B460 /* BidInputViewUITests.swift */,
 			);
 			path = "Joey SpadesUITests";
+			sourceTree = "<group>";
+		};
+		8EB3FDFD2C77B80900140C7D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8E1C7EA42C77B92C00E2B460 /* ScoreboardView.swift */,
+				8E1C7EA22C77B92C00E2B460 /* TrickCountInputView.swift */,
+				8E1C7EA62C77B92C00E2B460 /* BidInputView.swift */,
+				8E1C7EA72C77B92C00E2B460 /* RoundSummaryView.swift */,
+				8E1C7EA52C77B92C00E2B460 /* ContentView.swift */,
+				8E1C7EA32C77B92C00E2B460 /* PlayerListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8EB3FDFE2C77B81200140C7D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8E1C7EAF2C77B98B00E2B460 /* Game.swift */,
+				8E1C7EAE2C77B98B00E2B460 /* Player.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +309,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EB3FDD62C77B7D700140C7D /* ContentView.swift in Sources */,
+				8E1C7EA82C77B92C00E2B460 /* TrickCountInputView.swift in Sources */,
+				8E1C7EB12C77B98B00E2B460 /* Game.swift in Sources */,
+				8E1C7EAD2C77B92C00E2B460 /* RoundSummaryView.swift in Sources */,
+				8E1C7EAB2C77B92C00E2B460 /* ContentView.swift in Sources */,
+				8E1C7EAC2C77B92C00E2B460 /* BidInputView.swift in Sources */,
+				8E1C7EB02C77B98B00E2B460 /* Player.swift in Sources */,
 				8EB3FDD42C77B7D700140C7D /* Joey_SpadesApp.swift in Sources */,
+				8E1C7EA92C77B92C00E2B460 /* PlayerListView.swift in Sources */,
+				8E1C7EAA2C77B92C00E2B460 /* ScoreboardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EB3FDE52C77B7DA00140C7D /* Joey_SpadesTests.swift in Sources */,
+				8E1C7EB52C77B9E700E2B460 /* GameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +335,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EB3FDEF2C77B7DA00140C7D /* Joey_SpadesUITests.swift in Sources */,
+				8E1C7EBD2C78EA8700E2B460 /* BidInputViewUITests.swift in Sources */,
 				8EB3FDF12C77B7DA00140C7D /* Joey_SpadesUITestsLaunchTests.swift in Sources */,
+				8E1C7EB72C77BA7C00E2B460 /* PlayerListViewUITests.swift in Sources */,
+				8E1C7EBB2C78EA6100E2B460 /* TrickCountInputUITests.swift in Sources */,
+				8E1C7EB92C78EA3F00E2B460 /* ScoreBoardUITest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
